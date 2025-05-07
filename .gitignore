@@ -1,0 +1,79 @@
+# Terraform files
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.*
+infra/crash.log
+infra/*.tfvars
+infra/override.tf
+infra/override.tf.json
+infra/*_override.tf
+infra/*_override.tf.json
+infra/.terraformrc
+infra/terraform.rc
+infra/.terraform.lock.hcl
+
+# Local .terraform directories
+infra/**/.terraform/*
+.idea
+# Crash log files
+infra/crash.log
+infra/crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data
+infra/*.tfvars
+infra/*.tfvars.json
+
+# Ignore CLI configuration files
+infra/.terraformrc
+infra/terraform.rc
+
+# Keep .terraform/environment file
+!infra/.terraform/environment
+
+# Other project-specific ignores
+.env
+
+infra/pub_keys/*
+
+main/vpn_files/*
+
+
+
+
+# Terraform files
+main/.terraform/
+main/*.tfstate
+main/*.tfstate.*
+main/crash.log
+main/*.tfvars
+main/override.tf
+main/override.tf.json
+main/*_override.tf
+main/*_override.tf.json
+main/.terraformrc
+main/terraform.rc
+main/.terraform.lock.hcl
+
+# Local .terraform directories
+main/**/.terraform/*
+
+# Crash log files
+main/crash.log
+main/crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data
+main/*.tfvars
+main/*.tfvars.json
+
+# Ignore CLI configuration files
+main/.terraformrc
+main/terraform.rc
+
+# Keep .terraform/environment file
+!main/.terraform/environment
+
+# Other project-specific ignores
+.env
+
+
+main/pub_keys/*
