@@ -47,6 +47,10 @@ I discovered new solutions in AWS for me, which are optimize for **performance, 
 
 ---
 
+**Network Diagram (Final Phase)**  
+![Diagram Photo](Final_diagram.jpg)  
+
+
 ## 🔧 **Technologies Used**  
 - **AWS Services**: VPC, ECS, ALB, NAT Gateway, Transit Gateway, VPN, PostgreSQL  
 - **Docker (ECS)**: Containerized backend services  
